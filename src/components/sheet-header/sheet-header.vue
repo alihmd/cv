@@ -1,7 +1,8 @@
 <template>
   <div class="sheet-header">
     <div class="sheet-header-left">
-      <img :class="{ 'grayscale': grayscalePicture }" src="@/assets/pic.png" />
+      <img :class="{ 'grayscale': grayscalePicture }"
+           src="@/assets/pic.png" />
       <div class="sheet-header-name-title">
         <div class="sheet-header-name">{{'name' | config}}</div>
         <div class="sheet-header-title">{{'title' | config}}</div>
@@ -12,24 +13,45 @@
       <div>
         <svg-email></svg-email>
         <div>
-          <a target="_blank" :href="'mailto://' + $options.filters.config('email')">{{'email' | config}}</a>
+          <a target="_blank"
+             :href="'mailto://' + $options.filters.config('email')">{{'email' | config}}</a>
         </div>
       </div>
 
       <div>
+        <svg-phone></svg-phone>
+        <div>
+          <a :href="'tel:' + $options.filters.config('phoneNumber')">{{'phoneNumber' | config}}</a>
+        </div>
+      </div>
+
+      <div v-if="$options.filters.config('website')">
         <svg-globe></svg-globe>
         <div>
-          <a target="_blank" :href="'website' | config">{{'website' | config}}</a>
+          <a target="_blank"
+             :href="'website' | config">
+            {{'website' | config}}
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <svg-linkedin></svg-linkedin>
+        <div>
+          <a target="_blank"
+             :href="'https://linkedin.com/in/' + $options.filters.config('linkedInUsername')">
+            @{{'linkedInUsername' | config}}
+          </a>
         </div>
       </div>
 
       <div>
         <svg-github></svg-github>
         <div>
-          <a
-            target="_blank"
-            :href="'https://github.com/' + $options.filters.config('githubUsername')"
-          >@{{'githubUsername' | config}}</a>
+          <a target="_blank"
+             :href="'https://github.com/' + $options.filters.config('githubUsername')">
+            @{{'githubUsername' | config}}
+          </a>
         </div>
       </div>
     </div>
