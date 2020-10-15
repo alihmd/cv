@@ -10,7 +10,7 @@ interface Work {
 }
 
 @Component
-export default class SheetContentCv extends Vue {
+export default class SheetContentCvWork extends Vue {
   content: string = content;
   works: Work[] = [];
   private counter = 1;

@@ -1,7 +1,9 @@
 <template>
   <sheet-section :title="'Work'">
     <div class="sheet-content-cv-work">
-      <div class="sheet-content-cv-work-item" v-for="work in works" :key="work.id">
+      <div class="sheet-content-cv-work-item"
+           v-for="work in works"
+           :key="work.id">
         <div class="sheet-content-cv-work-item-left">
           <div class="sheet-content-cv-work-item-place">{{work.place}}</div>
           <div class="sheet-content-cv-work-item-year">{{work.year}}</div>

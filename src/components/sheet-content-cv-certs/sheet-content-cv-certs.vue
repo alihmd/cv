@@ -1,7 +1,9 @@
 <template>
-  <sheet-section :title="'Memberships and Certifications'">
+  <sheet-section :title="'Education and Certifications'">
     <div class="sheet-content-cv-certs">
-      <div class="sheet-content-cv-certs-item" v-for="cert in certs" :key="cert.id">
+      <div class="sheet-content-cv-certs-item"
+           v-for="cert in certs"
+           :key="cert.id">
         <div class="sheet-content-cv-certs-item-left">
           <div class="sheet-content-cv-certs-item-year">{{cert.year}}</div>
         </div>
