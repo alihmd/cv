@@ -1,15 +1,12 @@
 .sheet-content-cv-certs {
-  > * + * {
-    margin-top: var(--spacer-sm-2);
-  }
+  display: flex;
+  flex-flow: column;
+  gap: var(--spacer-sm-2);
 }
 
 .sheet-content-cv-certs-item {
   display: flex;
-
-  > * + * {
-    margin-left: var(--spacer-sm-2);
-  }
+  gap: var(--spacer-sm-2);
 }
 
 .sheet-content-cv-certs-item-left {

@@ -1,9 +1,6 @@
 .sheet-content-cv {
   display: flex;
-
-  > * + * {
-    margin-left: 1cm;
-  }
+  gap: 1cm;
 }
 
 .sheet-content-cv-left {
@@ -17,7 +14,7 @@
 
 .sheet-content-cv-left,
 .sheet-content-cv-right {
-  > * + * {
-    margin-top: var(--spacer-sm-2);
-  }
+  display: flex;
+  flex-flow: column;
+  gap: var(--spacer-1);
 }

@@ -1,27 +1,23 @@
 .sheet-content-cl {
   display: flex;
-
-  > * + * {
-    margin-left: 1cm;
-  }
+  gap: 1cm;
 }
 
 .sheet-content-cl-left {
   width: 4cm;
   flex-shrink: 0;
+  display: flex;
+  flex-flow: column;
+  gap: 1cm;
 
-  > * {
-    > *:nth-child(1) {
+  >* {
+    display: flex;
+    flex-flow: column;
+    gap: var(--spacer-sm-1);
+
+    >*:nth-child(1) {
       color: var(--text-color-secondary);
     }
-
-    > * + * {
-      margin-top: var(--spacer-sm-1);
-    }
-  }
-
-  > * + * {
-    margin-top: 1cm;
   }
 }
 

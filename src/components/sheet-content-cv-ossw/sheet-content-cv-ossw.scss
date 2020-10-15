@@ -1,24 +1,20 @@
 .sheet-content-cv-ossw {
   padding-top: var(--spacer-sm-3);
-
-  > * + * {
-    margin-top: var(--spacer-sm-3);
-  }
+  display: flex;
+  flex-flow: column;
+  gap: var(--spacer-sm-3);
 }
 
 .sheet-content-cv-ossw-item {
-  > * + * {
-    margin-top: var(--spacer-sm-2);
-  }
+  display: flex;
+  flex-flow: column;
+  gap: var(--spacer-sm-2);
 }
 
 .sheet-content-cv-ossw-item-header {
   display: flex;
   align-items: center;
-
-  > * + * {
-    margin-left: var(--spacer-sm-2);
-  }
+  gap: var(--spacer-sm-2);
 }
 
 .sheet-content-cv-ossw-item-description {
