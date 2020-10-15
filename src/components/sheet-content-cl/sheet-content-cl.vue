@@ -14,10 +14,11 @@
       </div>
 
       <div class="sheet-content-cl-right">
-        <content-cl></content-cl>
+        <VueShowdown :markdown="content" />
       </div>
     </div>
   </sheet-section>
 </template>
 
+<script lang="ts" src="./sheet-content-cl.ts"></script>
 <style lang="scss" scoped src="./sheet-content-cl.scss"></style>
