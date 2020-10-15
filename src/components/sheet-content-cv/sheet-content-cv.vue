@@ -1,13 +1,15 @@
 <template>
   <div class="sheet-content-cv">
     <div class="sheet-content-cv-left">
-      <sheet-content-cv-work></sheet-content-cv-work>
-      <sheet-content-cv-certs></sheet-content-cv-certs>
+      <component v-for="(section, index) in $options.filters.config('cvLeftSections')"
+                 :key="index"
+                 v-bind:is="'sheet-content-cv-' + section" />
     </div>
 
     <div class="sheet-content-cv-right">
-      <sheet-content-cv-profile></sheet-content-cv-profile>
-      <sheet-content-cv-ossw></sheet-content-cv-ossw>
+      <component v-for="(section, index) in $options.filters.config('cvRightSections')"
+                 :key="index"
+                 v-bind:is="'sheet-content-cv-' + section" />
     </div>
   </div>
 </template>

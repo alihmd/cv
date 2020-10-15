@@ -7,5 +7,14 @@
   "to": "MRH",
   "position": "Software Engineer on the .NET team",
 
-  "grayscalePicture": false
+  "grayscalePicture": false,
+  "cvLeftSections": [
+    "work",
+    "projects",
+    "certs"
+  ],
+  "cvRightSections": [
+    "summary",
+    "languages"
+  ]
 }
