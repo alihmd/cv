@@ -19,7 +19,7 @@ Configurable things are all put under [src/content](src/content):
 - [config.json](src/content/config.json): Contains quick data and some configuration options
 - [oss-projects.json](src/content/oss-projects.json): Contains open source projects you want to display
 - [cover-letter.md](src/content/cover-letter.md): Your cover letter
-- [profile.md](src/content/profile.md): A small intro about yourself
+- [summary.md](src/content/summary.md): A small intro about yourself
 - [work.md](src/content/work.md): Past and current work experience
 - [certs.md](src/content/certs.md): Certifications and memberships you've attained
 
