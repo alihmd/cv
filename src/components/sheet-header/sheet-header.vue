@@ -1,7 +1,8 @@
 <template>
   <div class="sheet-header">
     <div class="sheet-header-left">
-      <img :class="{ 'grayscale': grayscalePicture }"
+      <img v-if="!pictureHidden"
+           :class="{ 'grayscale': grayscalePicture }"
            src="@/assets/pic.png" />
       <div class="sheet-header-name-title">
         <div class="sheet-header-name">{{'name' | config}}</div>

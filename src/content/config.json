@@ -7,7 +7,9 @@
   "to": "MRH",
   "position": "Software Engineer on the .NET team",
 
+  "pictureHidden": true,
   "grayscalePicture": false,
+
   "cvLeftSections": [
     "work",
     "projects",

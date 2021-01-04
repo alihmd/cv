@@ -27,7 +27,7 @@ Configurable things are all put under [src/content](src/content):
 
 Your picture is at [src/assets/pic.png](src/assets/pic.png).
 
-> Tip: You can make this grayscale by setting `grayscalePicture` to `true` in [config.json](src/content/config.json).
+> Tip: You can choose not to show your picture or make it grayscale by setting `pictureHidden` and `grayscalePicture` to `true` in [config.json](src/content/config.json).
 
 ## Run
 ```
