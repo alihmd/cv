@@ -1,0 +1,36 @@
+.sheet-content-cv-projects {
+  display: flex;
+  flex-flow: column;
+  gap: var(--spacer-sm-2);
+}
+
+.sheet-content-cv-projects-item {
+  display: flex;
+  gap: var(--spacer-sm-3);
+}
+
+.sheet-content-cv-projects-item-left {
+  width: 3cm;
+  flex-shrink: 0;
+}
+
+.sheet-content-cv-projects-item-logo {
+  height: 40px;
+  border-radius: 3px;
+}
+
+.sheet-content-cv-projects-item-right {
+  flex: 1;
+}
+
+.sheet-content-cv-projects-item-role {
+  font-weight: bold;
+}
+
+.sheet-content-cv-projects-item-link {
+  font-size: var(--font-size-xs);
+}
+
+.sheet-content-cv-projects-item-content {
+  font-size: var(--font-size-sm);
+}
