@@ -4,6 +4,7 @@ import { Component, Vue } from 'vue-property-decorator';
 interface Work {
   id: number;
   place: string;
+  logoUrl: string;
   year: string;
   title: string;
   content: string;
@@ -25,6 +26,8 @@ export default class SheetContentCvWork extends Vue {
     const place = str.substr(0, str.indexOf('\n'));
     str = str.substr(str.indexOf('\n') + 1);
 
+    const logoUrl = this.getImgUrl(place);
+
     const year = str.substr(0, str.indexOf('\n'));
     str = str.substr(str.indexOf('\n') + 1);
 
@@ -36,9 +39,22 @@ export default class SheetContentCvWork extends Vue {
     return {
       id: this.counter++,
       place,
+      logoUrl,
       year,
       title,
       content: str,
     };
+  }
+
+  getImgUrl(place: string) {
+    place = place.trim().toLowerCase() + '-logo.png';
+    const image = require.context('@/assets/work/', false);
+
+    try {
+      const url = image('./' + place);
+      return url;
+    } catch (error) {
+      return null;
+    }
   }
 }

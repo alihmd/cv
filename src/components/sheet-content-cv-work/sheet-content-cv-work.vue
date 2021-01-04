@@ -5,6 +5,9 @@
            v-for="work in works"
            :key="work.id">
         <div class="sheet-content-cv-work-item-left">
+          <img v-if="work.logoUrl"
+               class="sheet-content-cv-work-item-logo"
+               :src="work.logoUrl" />
           <div class="sheet-content-cv-work-item-place">{{work.place}}</div>
           <div class="sheet-content-cv-work-item-year">{{work.year}}</div>
         </div>
