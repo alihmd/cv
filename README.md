@@ -23,7 +23,7 @@ Configurable things are all put under [src/content](src/content):
 - [oss-projects.json](src/content/oss-projects.json): Contains open source projects you want to display
 - [projects.md](src/content/projects.md): Personal projects
 - [skills.md](src/content/skills.md): Skills and technologies you know
-- [summary.md](src/content/summary.md): A small intro about yourself
+- [profile.md](src/content/profile.md): A small intro about yourself
 - [work.md](src/content/work.md): Past and current work experience
 
 Your picture is at [src/assets/pic.png](src/assets/pic.png).

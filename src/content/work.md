@@ -4,7 +4,7 @@ Full-stack Software Engineer
 
 Worked on **Twist**, a centralized web and mobile mobility fleet management platform.
 
-- Played a primary role in new team members onboarding, mentoring a colleague during my second year there.
+- Played a primary role in new team members onboarding, mentoring a colleague during my second year.
 - Feature owner of a dynamic ticketing system, covering 20+ configurable ticket workflows with automation and third-party integration.
 - Implemented a storage file system module.
 - Developed and maintained various modules for assets and stock management, reporting, and auditing.
