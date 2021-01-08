@@ -1,2 +1,5 @@
-List of skills and technologies
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Proficient with:
+C# • ASP.NET Core • Typescript • Angular • HTML5 • SQL • Git
+
+Familiar with:
+Vue.js • Flutter • Go

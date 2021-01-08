@@ -1,3 +1,3 @@
-• English—Business level
-• English—Business level
-• English—Business level
+• English—Fluent
+• Arabic—Native
+\+ Currently learning Japanese

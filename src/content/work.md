@@ -1,29 +1,14 @@
-UlM
-2017
-Software Architect
+Rubix
+2018 - 2020
+Full-stack Software Engineer
 
-Lead engineer and architect on a modern platform for university students and professors for the Lebanese University Faculty of Engineering. Classes, Academic Registration, Grades, Courses, Materials, etc. Has been in use in production since 2016.
+Worked on **Twist**, a centralized web and mobile mobility fleet management platform.
 
-- Software architect and tech leader for a fullstack team working on a suite of products.
-
-- Implemented custom load balancer solution with workers using Asp.Net Core and SignalR.
-
-- We use most of the libraries I've worked on at GitHub for Asp.Net Core and .Net in general. We use some of them for training new recruits as well.
-
----
-
-Lebanese University - Faculty of Engineering
-2015 - 2019
-Software Engineer
-
-Lead engineer and architect on a modern platform for university students and professors for the [Lebanese University Faculty of Engineering](http://www.ulfg.ul.edu.lb/). Classes, Academic Registration, Grades, Courses, Materials, etc. Has been in use in production since 2016.
-
----
-
-Open Source
-2014
-Software Engineer
-
-Lead engineer and architect on a modern platform for university students and professors for the Lebanese University Faculty of Engineering.
-
-Spent a couple of years working full time on open source. Developed solutions across different _stacks_.
+- Played a primary role in new team members onboarding, mentoring a colleague during my second year there.
+- Feature owner of a dynamic ticketing system, covering 20+ configurable ticket workflows with automation and third-party integration.
+- Implemented a storage file system module.
+- Developed and maintained various modules for assets and stock management, reporting, and auditing.
+- Designed and implemented a SSO system using IdentityServer4.
+- Worked with real-time events and asynchronous notifications.
+- Worked with internationalization (i18n)
+- Implemented in C# (ASP.NET Core, IdentityServer4), Angular, Vuejs.

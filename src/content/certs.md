@@ -1,7 +1,9 @@
-2019
-DotNet Foundation Member
+2015 – 2018
+Lebanese University - Faculty of Sciences
+Bachelor of Science - BS Computer Science
 
 ---
 
 2017
-Microsoft Certified Professional
+Lebanese Collegiate Programming Contest
+By ACM, Association for Computing Machinery

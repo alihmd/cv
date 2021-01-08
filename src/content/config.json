@@ -1,11 +1,13 @@
 {
-  "name": "Mohammad Rahhal",
+  "name": "Ali Hammoud",
   "title": "Software Engineer",
-  "email": "m.r992@hotmail.com",
-  "website": "https://mrahhal.net",
-  "githubUsername": "mrahhal",
-  "to": "MRH",
-  "position": "Software Engineer on the .NET team",
+  "email": "hammoudali000@gmail.com",
+  "phoneNumber": "+961 76 987160",
+  "website": "",
+  "linkedInUsername": "alihmd",
+  "githubUsername": "alihmd",
+  "to": "TO",
+  "position": "POSITION",
 
   "pictureHidden": true,
   "grayscalePicture": false,
@@ -17,6 +19,7 @@
   ],
   "cvRightSections": [
     "summary",
+    "skills",
     "languages"
   ]
 }
