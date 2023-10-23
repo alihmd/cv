@@ -55,6 +55,11 @@
           </a>
         </div>
       </div>
+
+      <div v-if="$options.filters.config('location')">
+        <svg-location></svg-location>
+        <div>{{'location' | config}}</div>
+      </div>
     </div>
   </div>
 </template>

@@ -10,6 +10,9 @@
                :src="work.logoUrl" />
           <div class="sheet-content-cv-work-item-place">{{work.place}}</div>
           <div class="sheet-content-cv-work-item-year">{{work.year}}</div>
+          <a class="sheet-content-cv-work-item-link"
+              target="_blank"
+              :href="'//' + work.websiteUrl[1]">{{work.websiteUrl[0]}}</a>
         </div>
         <div class="sheet-content-cv-work-item-right">
           <div class="sheet-content-cv-work-item-title">{{work.title}}</div>

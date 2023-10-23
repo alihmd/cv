@@ -1,25 +1,29 @@
-.sheet-content-cv-certs {
-  display: flex;
-  flex-flow: column;
-  gap: var(--spacer-sm-2);
-}
+// .sheet-content-cv-certs {
+//   display: flex;
+//   flex-flow: column;
+//   gap: var(--spacer-sm-2);
+// }
 
-.sheet-content-cv-certs-item {
-  display: flex;
-  gap: var(--spacer-sm-2);
-}
+// .sheet-content-cv-certs-item {
+//   display: flex;
+//   gap: var(--spacer-sm-2);
+// }
 
-.sheet-content-cv-certs-item-left {
-  width: 3cm;
-  flex-shrink: 0;
-}
+// .sheet-content-cv-certs-item-left {
+//   width: 3cm;
+//   flex-shrink: 0;
+// }
 
-.sheet-content-cv-certs-item-right {
-  flex: 1;
-  font-size: var(--font-size-sm);
-}
+// .sheet-content-cv-certs-item-right {
+//   flex: 1;
+//   font-size: var(--font-size-sm);
+// }
 
-.sheet-content-cv-certs-item-year {
-  font-size: var(--font-size-sm);
-  color: var(--text-color-secondary);
-}
+// .sheet-content-cv-certs-item-year {
+//   font-size: var(--font-size-sm);
+//   color: var(--text-color-secondary);
+// }
+
+// .sheet-content-cv-certs-item-title {
+//   white-space: pre;
+// }

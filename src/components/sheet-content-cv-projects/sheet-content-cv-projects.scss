@@ -33,4 +33,8 @@
 
 .sheet-content-cv-projects-item-content {
   font-size: var(--font-size-sm);
+
+  ::v-deep p {
+    margin-top: var(--spacer-sm);
+  }
 }

@@ -1,5 +1,5 @@
-Proficient with:
-C# • ASP.NET Core • Typescript • Angular • HTML5 • SQL • Git
+Proficient with: <small>(4+ years)</small>
+**C#** • **ASP.NET Core** • **EF/EF Core** • **Typescript** • **Angular** • **RxJS** • **HTML** • **CSS/SASS** • SQL • Git
 
 Familiar with:
-Vue.js • Flutter • Go
+**Vue.js** • **React** • Java • AWS • Flutter • Go • New Relic • Open Telemetry

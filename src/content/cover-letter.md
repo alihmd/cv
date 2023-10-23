@@ -1,14 +1,22 @@
-Hello there! This is your _cover letter_. You write this in markdown. Here's some dummy text.
+Dear recruiting team at Line Fukuoka,
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt augue interdum velit euismod. Sed viverra tellus in hac habitasse platea dictumst. Mattis rhoncus urna neque viverra justo nec ultrices. **Purus in mollis nunc sed id.** Malesuada pellentesque elit eget gravida cum sociis. Mollis aliquam ut porttitor leo. Turpis egestas pretium aenean pharetra magna ac. Eu ultrices vitae auctor eu augue ut lectus. Aliquet nibh praesent tristique magna sit amet purus. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et. Mauris commodo quis imperdiet massa. Congue eu consequat ac felis donec et odio pellentesque diam.
+This letter is to express my interest in your posting for a Front-end Engineer.
 
-Quam elementum pulvinar etiam non quam lacus suspendisse faucibus. Risus nec feugiat in fermentum posuere urna nec tincidunt. Fames ac turpis egestas integer eget aliquet nibh praesent. Venenatis a condimentum vitae sapien pellentesque habitant morbi tristique. _Netus et malesuada_ fames ac. Ultricies leo integer malesuada nunc vel risus commodo viverra. Felis imperdiet proin fermentum leo vel orci porta. [Consectetur lorem donec massa sapien](https://github.com/alihmd) faucibus et molestie ac feugiat. Cursus vitae congue mauris rhoncus aenean vel elit scelerisque.
+With 4+ years of experience as a Full-stack engineer, I am confident I will be an asset to your organization.
 
-- Quam elementum pulvinar etiam
-- Habitant morbi tristique senectus et netus et malesuada
-- Sit amet consectetur adipiscing elit ut aliquam
+I enjoy being challenged and engaging with projects that require me to work outside my comfort and knowledge set, as continuing to learn new languages and development techniques are important to me and the success of any organization.
 
-Quisque sagittis purus sit amet. Sit amet consectetur adipiscing elit ut aliquam. Nulla at volutpat diam ut. Orci phasellus egestas tellus rutrum. Quis commodo odio aenean sed adipiscing diam donec. Faucibus ornare suspendisse sed nisi lacus. **Arcu non sodales** neque sodales ut etiam. Mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Erat velit scelerisque in dictum non consectetur a erat. Eu ultrices vitae auctor eu augue ut lectus. Magna eget est lorem ipsum dolor sit amet. Tincidunt arcu non sodales neque sodales. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna neque. Tortor pretium viverra suspendisse potenti nullam ac. Est lorem ipsum dolor sit amet consectetur adipiscing.
+Your listed requirements closely match my background and skills. A few I would like to highlight that would enable me to contribute to your bottom line are:
+• Extensive experience in development with a focus on JavaScript
+• Expertise knowledge of HTML/CSS/JavaScript
+• SPA (Single-page Application) implementation experience
+• Experience with CSS pre-processors
+• Passion towards OSS!
+
+In addition to that, I'd like to mention that I'm very motivated to continue learning Japanese and would love to work and live in Japan!
+
+On the second page is my resume which details my experience in software development. I can be reached anytime via my cell phone, +31629453126, or via email at hammoudali000@gmail.com.
+Thank you for your time and consideration. I am looking forward to speaking with you about this opportunity.
 
 Sincerely,
 Ali Hammoud

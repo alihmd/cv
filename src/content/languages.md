@@ -1,3 +1,3 @@
 • English—Fluent
 • Arabic—Native
-\+ Currently learning Japanese
+<!-- \+ Currently learning Japanese -->

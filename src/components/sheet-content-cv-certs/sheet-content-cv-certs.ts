@@ -20,8 +20,8 @@ export default class SheetContentCvCerts extends Vue {
   }
 
   private _processCert(str: string): Cert {
-    const year = str.substr(0, str.indexOf('\n'));
-    str = str.substr(str.indexOf('\n') + 1);
+    const year = str.substring(0, str.indexOf('\n'));
+    str = str.substring(str.indexOf('\n') + 1);
 
     const title = str.trim();
 

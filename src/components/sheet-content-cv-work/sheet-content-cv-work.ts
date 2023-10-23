@@ -4,6 +4,7 @@ import { Component, Vue } from 'vue-property-decorator';
 interface Work {
   id: number;
   place: string;
+  websiteUrl: string[];
   logoUrl: string;
   year: string;
   title: string;
@@ -23,22 +24,26 @@ export default class SheetContentCvWork extends Vue {
   }
 
   private _processWork(str: string): Work {
-    const place = str.substr(0, str.indexOf('\n'));
-    str = str.substr(str.indexOf('\n') + 1);
+    const place = str.substring(0, str.indexOf('\n'));
+    str = str.substring(str.indexOf('\n') + 1);
 
     const logoUrl = this.getImgUrl(place);
 
-    const year = str.substr(0, str.indexOf('\n'));
-    str = str.substr(str.indexOf('\n') + 1);
+    const year = str.substring(0, str.indexOf('\n'));
+    str = str.substring(str.indexOf('\n') + 1);
 
-    const title = str.substr(0, str.indexOf('\n'));
-    str = str.substr(str.indexOf('\n') + 1);
+    const websiteUrl = str.substring(0, str.indexOf('\n')).split('|');
+    str = str.substring(str.indexOf('\n') + 1);
 
-    str = str.substr(1);
+    const eolIndex = str.indexOf('\n');
+    const title = eolIndex > 0 ? str.substring(0, str.indexOf('\n')) : str;
+
+    str = eolIndex > 0 ? str.substring(str.indexOf('\n') + 1) : '';
 
     return {
       id: this.counter++,
       place,
+      websiteUrl,
       logoUrl,
       year,
       title,

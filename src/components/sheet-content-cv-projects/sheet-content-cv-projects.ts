@@ -5,8 +5,8 @@ interface Project {
   id: number;
   name: string;
   logoUrl: string;
-  link: string;
-  role: string;
+  urlTexts: string[] | null;
+  urls: string[] | null;
   content: string;
 }
 
@@ -23,25 +23,24 @@ export default class SheetContentCvProjects extends Vue {
   }
 
   private _processProjects(str: string): Project {
-    const name = str.substr(0, str.indexOf('\n'));
-    str = str.substr(str.indexOf('\n') + 1);
+    const name = str.substring(0, str.indexOf('\n'));
+    str = str.substring(str.indexOf('\n') + 1);
 
-    const logoUrl = this.getImgUrl(name);
+    const logoUrl = this.getImgUrl(name.substring(0, name.indexOf(' ')));
 
-    const link = str.substr(0, str.indexOf('\n'));
-    str = str.substr(str.indexOf('\n') + 1);
+    const links = str.substring(0, str.indexOf('#links-end#'));
+    const urls = links.match(/(?<=\().+?(?=\))/g);
+    const urlTexts = links.match(/(?<=\[).+?(?=\])/g);
+    str = str.substring(str.indexOf('#links-end#\r\n') + 13);
 
-    const role = str.substr(0, str.indexOf('\n'));
-    str = str.substr(str.indexOf('\n') + 1);
-
-    str = str.substr(1);
+    str = str.substring(1);
 
     return {
       id: this.counter++,
       name,
       logoUrl,
-      link,
-      role,
+      urls,
+      urlTexts,
       content: str,
     };
   }

@@ -12,6 +12,7 @@ Vue.use(VueShowdown, {
   options: {
     emoji: true,
     simpleLineBreaks: true,
+    tables: true,
   },
 });
 

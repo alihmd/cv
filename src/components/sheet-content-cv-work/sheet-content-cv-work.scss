@@ -1,7 +1,7 @@
 .sheet-content-cv-work {
   display: flex;
   flex-flow: column;
-  gap: var(--spacer-sm-2);
+  gap: var(--spacer-1);
 }
 
 .sheet-content-cv-work-item {
@@ -10,7 +10,7 @@
 }
 
 .sheet-content-cv-work-item-left {
-  width: 3cm;
+  width: 22mm;
   flex-shrink: 0;
 }
 
@@ -21,6 +21,7 @@
 
 .sheet-content-cv-work-item-right {
   flex: 1;
+  margin: auto 0;
 }
 
 .sheet-content-cv-work-item-title {
@@ -34,6 +35,14 @@
   color: var(--text-color-secondary);
 }
 
+.sheet-content-cv-work-item-link {
+  font-size: var(--font-size-xs);
+}
+
 .sheet-content-cv-work-item-content {
   font-size: var(--font-size-sm);
+
+  ::v-deep ul {
+    margin-bottom: 0;
+  }
 }

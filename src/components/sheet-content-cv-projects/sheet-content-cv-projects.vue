@@ -10,11 +10,12 @@
                :src="project.logoUrl" />
           <div class="sheet-content-cv-projects-item-name">{{project.name}}</div>
           <a class="sheet-content-cv-projects-item-link"
-             target="_blank"
-             :href="'//' + project.link">{{project.link}}</a>
+              v-for="(url, index) in project.urls"
+              :key="url"
+              target="_blank"
+              :href="'//' + url">{{project.urlTexts[index]}}<br></a>
         </div>
         <div class="sheet-content-cv-projects-item-right">
-          <div class="sheet-content-cv-projects-item-role">{{project.role}}</div>
           <div class="sheet-content-cv-projects-item-content">
             <VueShowdown :markdown="project.content" />
           </div>
