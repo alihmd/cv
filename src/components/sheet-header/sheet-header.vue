@@ -22,7 +22,11 @@
       <div>
         <svg-phone></svg-phone>
         <div>
-          <a :href="'tel:' + $options.filters.config('phoneNumber')">{{'phoneNumber' | config}}</a>
+          <span v-for="(p, index) in $options.filters.config('phoneNumbers')"
+                :key="p">
+            <span v-if="index > 0"> | </span>
+            <a :href="'tel:' + p">{{p}}</a>
+          </span>
         </div>
       </div>
 
