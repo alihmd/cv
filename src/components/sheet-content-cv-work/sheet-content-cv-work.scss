@@ -30,6 +30,15 @@
 
 .sheet-content-cv-work-item-place {}
 
+.sheet-content-cv-work-item-additional {
+  font-size: var(--font-size-xs);
+}
+
+.sheet-content-cv-work-item-location {
+  font-size: var(--font-size-sm);
+  color: var(--text-color-secondary);
+}
+
 .sheet-content-cv-work-item-year {
   font-size: var(--font-size-sm);
   color: var(--text-color-secondary);

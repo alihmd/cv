@@ -4,8 +4,10 @@ import { Component, Vue } from 'vue-property-decorator';
 interface Work {
   id: number;
   place: string;
+  additional: string;
   websiteUrl: string[];
   logoUrl: string;
+  location: string;
   year: string;
   title: string;
   content: string;
@@ -24,29 +26,15 @@ export default class SheetContentCvWork extends Vue {
   }
 
   private _processWork(str: string): Work {
-    const place = str.substring(0, str.indexOf('\n'));
-    str = str.substring(str.indexOf('\n') + 1);
+    const jsonString = str.substring(str.indexOf('```json') + 7, str.indexOf('```end'));
+    str = str.substring(str.indexOf('```end') + 7);
 
-    const logoUrl = this.getImgUrl(place);
+    const data = JSON.parse(jsonString);
 
-    const year = str.substring(0, str.indexOf('\n'));
-    str = str.substring(str.indexOf('\n') + 1);
-
-    const websiteUrl = str.substring(0, str.indexOf('\n')).split('|');
-    str = str.substring(str.indexOf('\n') + 1);
-
-    const eolIndex = str.indexOf('\n');
-    const title = eolIndex > 0 ? str.substring(0, str.indexOf('\n')) : str;
-
-    str = eolIndex > 0 ? str.substring(str.indexOf('\n') + 1) : '';
-
+    data.logoUrl = this.getImgUrl(data.logoUrl);
     return {
       id: this.counter++,
-      place,
-      websiteUrl,
-      logoUrl,
-      year,
-      title,
+      ...data,
       content: str,
     };
   }
