@@ -1,12 +1,12 @@
 {
-  "name": "Ali Hammoud",
-  "title": "Full-Stack Software Engineer",
-  "email": "hammoudali000@gmail.com",
+  "name": "Mohammad Hammoud",
+  "title": "Senior Developer",
+  "email": "mohdhamm@gmail.com",
   "location": "Beirut, Lebanon",
-  "phoneNumber": "+31 6 29453126",
+  "phoneNumbers": ["+961 76 749 660"],
   "website": "",
-  "linkedInUsername": "alihmd",
-  "githubUsername": "alihmd",
+  "linkedInUsername": "mohdhamm",
+  "githubUsername": "mohdhamm",
   "to": "LINE Fukuoka",
   "position": "Front-end Engineer",
 
@@ -14,8 +14,7 @@
   "grayscalePicture": false,
 
   "cvLeftSections": [
-    "work",
-    "projects"
+    "work"
   ],
   "cvRightSections": [
     "profile",

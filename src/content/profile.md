@@ -1,3 +1,1 @@
-I'm a **dedicated** software engineer with **over 5 years** of experience crafting B2C and B2B products that tackle complex business challenges and high-load demands.
-Whether it's within the fast-paced world of **startups** or the structured environment of **larger organizations**, my passion lies in creating **accurate** and **reliable** software solutions. Effective communication is a cornerstone of my approach.
-Outside of work, I'm an avid reader, a nature enthusiast who loves hiking, a fan of TV shows, and I'm on a journey to learn Japanese!
+I am a software engineer that focuses on delivering high quality work. My curiosity pushes me to dive in the depths of the technology and business of the project I am working on. I understand and appreciate the fact that a team environment is both productive and efficient. I have the ability to compromise, show respect to others and listen to the needs of my teammates.
