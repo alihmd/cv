@@ -39,12 +39,14 @@ export default class SheetContentCvWork extends Vue {
     };
   }
 
-  getImgUrl(place: string) {
-    place = place.trim().toLowerCase() + '-logo.png';
+  getImgUrl(logoUrl: string) {
+    if(!logoUrl) return null;
+
+    logoUrl = logoUrl.trim().toLowerCase() + '-logo.jpg';
     const image = require.context('@/assets/work/', false);
 
     try {
-      const url = image('./' + place);
+      const url = image('./' + logoUrl);
       return url;
     } catch (error) {
       return null;
